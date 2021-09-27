@@ -151,11 +151,12 @@ td{
     padding-top: 40px;
 }
 
+
 a{
     display: flex;
     border: 4px solid #8eb3f8;
     text-decoration: none;
-    color: indigo;
+    color: rgb(252, 247, 255);
     background-color: #8eb3f8;
     margin: auto;
     padding-bottom: 30px;
