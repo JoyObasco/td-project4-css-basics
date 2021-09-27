@@ -21,34 +21,19 @@ body{
 }
 
 @media screen and (max-width: 767px){
-    div{
-        background-color: gold;
-    }
-    .nav{
-        background-color: gold;
-    }
-    td{
-        background-color: gold;
-    }
-    .end{
+    body{
         background-color: gold;
     }
 }
 
 @media screen and (min-width: 768px) and (max-width:1023px){
-    div{
+    body{
         background-color: green;
     }
-    .nav{
-        background-color: green;
-    }
-    td{
-        background-color: green;
-    }
-    .end{
-        background-color: green;
-    }
+}
 
+.initials{
+  margin-left: 70px;
 }
 
 .nav{
@@ -97,6 +82,7 @@ body{
     text-align: center;
     margin-bottom: 60px;
     margin-top: -20px;
+    padding-bottom: 40px;
 }
 
 #name{
@@ -109,17 +95,25 @@ body{
     background-color: #8eb3f8;
     max-height: 30rem;
     border: 3px solid white;
+
 }
 
 .left{
-flex-direction: column;
-text-align: left;
+  flex-direction: column;
+  text-align: left;
+  border: 1px solid #8eb3f8;
+  margin-right: 300px;
+  padding-left: 30px;
+  padding-top: 40px;
+  font-size: 17px;
 }
 
 .right{
     flex-direction: column;
-    text-align: right;
-    padding-top: 0px;
+    text-align: left;
+    padding-top: 30px;
+    border: 1px solid #8eb3f8;
+
 }
 
 #mail{
@@ -136,6 +130,7 @@ table{
     margin: auto;
     margin-bottom: 50px;
     margin-top: 30px;
+    padding-bottom: 90px;
 }
 
 td{
@@ -153,11 +148,12 @@ td{
     background-color: #8eb3f8;
     color: white;
     text-align: center;
+    padding-top: 40px;
 }
 
 a{
     display: flex;
-    border: 1px solid #8eb3f8;
+    border: 4px solid #8eb3f8;
     text-decoration: none;
     color: indigo;
     background-color: #8eb3f8;
