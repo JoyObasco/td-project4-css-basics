@@ -20,6 +20,37 @@ body{
     width: 100%;
 }
 
+@media screen and (max-width: 767px){
+    div{
+        background-color: gold;
+    }
+    .nav{
+        background-color: gold;
+    }
+    td{
+        background-color: gold;
+    }
+    .end{
+        background-color: gold;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width:1023px){
+    div{
+        background-color: green;
+    }
+    .nav{
+        background-color: green;
+    }
+    td{
+        background-color: green;
+    }
+    .end{
+        background-color: green;
+    }
+
+}
+
 .nav{
     display:flex;
     justify-content: space-between;
@@ -73,6 +104,7 @@ body{
 }
 
 .second{
+    display: flex;
     color: white;
     background-color: #8eb3f8;
     max-height: 30rem;
@@ -80,21 +112,24 @@ body{
 }
 
 .left{
-display: flex;
 flex-direction: column;
 text-align: left;
 }
 
 .right{
-    display: flex;
     flex-direction: column;
     text-align: right;
     padding-top: 0px;
 }
 
-.alone{
+#mail{
+    text-decoration: none;
+    color: white;
+}
+
+#alone{
     color: skyblue;
-    margin-top: 70px;
+    margin: 70px 0px 50px 240px;
 }
 
 table{
@@ -115,7 +150,17 @@ td{
 }
 
 .end{
-    background-color: turquoise;
+    background-color: #8eb3f8;
     color: white;
     text-align: center;
+}
+
+a{
+    display: flex;
+    border: 1px solid #8eb3f8;
+    text-decoration: none;
+    color: indigo;
+    background-color: #8eb3f8;
+    margin: auto;
+    padding-bottom: 30px;
 }
